@@ -1,0 +1,10 @@
+<launch>
+
+<include file="$(find phantomx_gazebo)/launch/phantomx_gazebo.launch"/>
+
+<param name="joy_node/dev" value="/dev/input/js0" />
+
+<node pkg="joy" type="joy_node" name="joy_node"/>
+<node pkg="phantomx_gazebo" type="walker_joy.py" name="walker_joy"/>
+
+</launch>

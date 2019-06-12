@@ -1,0 +1,8 @@
+prefix=/home/lab/telelocomotion_ws/devel
+
+Name: the_one
+Description: Description of the_one
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lab/telelocomotion_ws/devel/lib 
+Requires: 

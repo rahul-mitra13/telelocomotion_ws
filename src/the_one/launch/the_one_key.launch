@@ -1,0 +1,7 @@
+<launch>
+
+<include file="$(find phantomx_gazebo)/launch/phantomx_gazebo.launch"/>
+
+<node pkg="phantomx_gazebo" type="walker_key.py" name="walker_key"/>
+
+</launch>

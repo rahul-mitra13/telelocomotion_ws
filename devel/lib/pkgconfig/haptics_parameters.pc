@@ -1,0 +1,8 @@
+prefix=/home/lab/telelocomotion_ws/devel
+
+Name: haptics_parameters
+Description: Description of haptics_parameters
+Version: 0.0.0
+Cflags: -I/home/lab/telelocomotion_ws/devel/include
+Libs: -L/home/lab/telelocomotion_ws/devel/lib 
+Requires: 

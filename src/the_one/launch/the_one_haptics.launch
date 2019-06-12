@@ -1,0 +1,9 @@
+<launch>
+
+<include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+
+<include file="$(find phantomx_gazebo)/launch/phantomx_gazebo_haptic.launch"/>
+
+<node pkg="phantomx_gazebo" type="walker_haptic.py" name="walker_haptic"/>
+
+</launch>

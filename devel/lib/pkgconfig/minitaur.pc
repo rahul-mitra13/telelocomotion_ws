@@ -1,0 +1,8 @@
+prefix=/home/lab/telelocomotion_ws/devel
+
+Name: minitaur
+Description: Description of minitaur
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/lab/telelocomotion_ws/devel/lib 
+Requires: 

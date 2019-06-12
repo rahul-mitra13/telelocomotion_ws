@@ -1,0 +1,6 @@
+geometry_msgs/Point point1
+haptics_parameters/Rotation rotation1
+haptics_parameters/Button button1
+geometry_msgs/Point point2
+haptics_parameters/Rotation rotation2
+haptics_parameters/Button button2
